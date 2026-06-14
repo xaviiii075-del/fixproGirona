@@ -6,7 +6,7 @@ export default function ContactePage() {
           Contacte
         </h1>
 
-        <p className="mb-4">
+        <p className="mb-6">
           Pots contactar amb nosaltres per telèfon o WhatsApp.
         </p>
 
@@ -23,7 +23,7 @@ export default function ContactePage() {
           rel="noopener noreferrer"
           className="block rounded-xl bg-green-600 px-6 py-4 text-center font-bold text-white"
         >
-          💬 WhatsApp
+          WhatsApp
         </a>
       </div>
     </main>
