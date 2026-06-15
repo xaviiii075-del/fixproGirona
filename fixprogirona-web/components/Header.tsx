@@ -28,9 +28,7 @@ export default function Header() {
 
         </div>
 
-        <button className="text-3xl text-blue-900">
-          ☰
-        </button>
+        
 
       </div>
 

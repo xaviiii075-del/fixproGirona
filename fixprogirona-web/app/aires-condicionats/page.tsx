@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Menu from "../../components/menu";
-export default function GasPage() {
+
+export default function AiresCondicionatsPage() {
   return (
     <main className="bg-white min-h-screen">
 
@@ -9,8 +10,8 @@ export default function GasPage() {
       <section className="relative h-[350px]">
 
         <Image
-          src="/images/gas.jpg"
-          alt="Gas Girona"
+          src="/images/aire-condicionat.jpg"
+          alt="Aires Condicionats Girona"
           fill
           className="object-cover"
         />
@@ -22,11 +23,11 @@ export default function GasPage() {
           <div>
 
             <h1 className="mb-4 text-4xl font-bold text-white">
-              Instal·lació i Reparació de Calderes
+              Instal·lació i Reparació d'Aires Condicionats
             </h1>
 
             <p className="text-lg text-white">
-              Instal·lació, reparació i manteniment de calderes a Girona i província.
+              Instal·lació, manteniment i reparació d'aires condicionats a Girona.
             </p>
 
           </div>
@@ -40,33 +41,35 @@ export default function GasPage() {
         <div className="mx-auto max-w-2xl">
 
           <h2 className="mb-6 text-3xl font-bold">
-            Serveis de calderes
+            Serveis d'aire condicionat
           </h2>
 
           <p className="mb-8 text-gray-700">
-           Oferim serveis professionals d'instal·lació, reparació i manteniment de calderes per habitatges, comunitats i negocis a Girona i tota la província. Treballem amb tot tipus de sistemes de calefacció per garantir el màxim confort i eficiència energètica.
+            Oferim instal·lació, manteniment i reparació d'equips
+            d'aire condicionat per habitatges, oficines, locals comercials
+            i empreses a Girona i província.
           </p>
 
           <div className="space-y-4">
 
             <div className="rounded-xl bg-gray-100 p-4">
-              🔥 Instal·lació de calderes
+              ❄️ Instal·lació d'aires condicionats
             </div>
 
             <div className="rounded-xl bg-gray-100 p-4">
-              🔥 Reparació d'avaries
+              ❄️ Reparació d'avaries
             </div>
 
             <div className="rounded-xl bg-gray-100 p-4">
-              🔥 Manteniment preventiu
+              ❄️ Càrrega de gas refrigerant
             </div>
 
             <div className="rounded-xl bg-gray-100 p-4">
-              🔥 Revisió de sistemes de calefacció
+              ❄️ Manteniment preventiu
             </div>
 
             <div className="rounded-xl bg-gray-100 p-4">
-              🔥 Substitució de calderes antigues
+              ❄️ Neteja i desinfecció d'equips
             </div>
 
           </div>
@@ -86,7 +89,7 @@ export default function GasPage() {
           <div className="space-y-4">
 
             <div className="rounded-xl bg-white p-4 shadow">
-              ✅ Tècnics especialitzats
+              ✅ Instal·ladors professionals
             </div>
 
             <div className="rounded-xl bg-white p-4 shadow">
@@ -110,11 +113,11 @@ export default function GasPage() {
       <section className="bg-blue-950 px-6 py-12 text-center text-white">
 
         <h2 className="mb-4 text-3xl font-bold">
-          Necessites un tècnic de calderes?
+          Necessites un tècnic d'aire condicionat?
         </h2>
 
         <p className="mb-8">
-          Contacta amb nosaltres i solucionarem el problema al més aviat possible.
+          Truca'ns ara i t'ajudarem al més aviat possible.
         </p>
 
         <div className="mx-auto flex max-w-sm flex-col gap-4">

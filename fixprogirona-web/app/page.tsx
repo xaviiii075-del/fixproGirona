@@ -1,43 +1,10 @@
 import Image from "next/image";
+import Menu from "../components/menu";
 import Link from "next/link";
 export default function Home() {
   return (
     <main className="bg-white">
-<header className="sticky top-0 z-50 bg-white border-b shadow-sm">
-  <nav className="mx-auto flex max-w-6xl items-center justify-center gap-4 px-4 py-4 text-sm font-semibold overflow-x-auto">
-
-    <a href="/">Inici</a>
-
-    <a href="/electricitat">
-      Electricitat
-    </a>
-
-    <a href="/fontaneria">
-      Fontaneria
-    </a>
-
-    <a href="/reparacions-urgents">
-      Urgències
-    </a>
-
-    <a href="/gas-i-installacions">
-      Gas
-    </a>
-
-    <a href="/reformes-de-bany">
-      Banys
-    </a>
-
-    <a href="/manteniment">
-      Manteniment
-    </a>
-
-    <a href="#contacte">
-      Contacte
-    </a>
-
-  </nav>
-</header>
+<Menu />
       {/* HERO */}
 
       <section className="relative min-h-screen">
@@ -147,7 +114,12 @@ export default function Home() {
 
         <div className="mx-auto flex max-w-md flex-col gap-8">
 
-          {[
+          {[{
+  img: "/images/aire-condicionat.jpg",
+  title: "Aires Condicionats",
+  text: "Instal·lació, reparació i manteniment d'aires condicionats.",
+  link: "/aires-condicionats"
+},
             {
   img: "/images/electricitat.jpg",
   title: "Electricitat",
@@ -168,8 +140,8 @@ export default function Home() {
 },
             {
   img: "/images/gas.jpg",
-  title: "Gas i instal·lacions tècniques",
-  text: "Instal·lació i manteniment de sistemes de gas.",
+  title: "Instal·lació i Reparació de Calderes",
+  text: "Instal·lació, reparació i manteniment de calderes.",
   link: "/gas-i-installacions"
 },
             {

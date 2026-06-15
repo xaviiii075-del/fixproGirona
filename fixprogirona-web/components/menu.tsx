@@ -4,7 +4,9 @@ export default function Menu() {
       <nav className="mx-auto flex max-w-6xl items-center justify-center gap-4 px-4 py-4 text-sm font-semibold overflow-x-auto">
 
         <a href="/">Inici</a>
-
+<a href="/aires-condicionats">
+  Aires Condicionats
+</a>
         <a href="/electricitat">
           Electricitat
         </a>
@@ -18,7 +20,7 @@ export default function Menu() {
         </a>
 
         <a href="/gas-i-installacions">
-          Gas
+          Calderes
         </a>
 
         <a href="/reformes-de-bany">
