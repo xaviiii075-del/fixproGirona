@@ -28,22 +28,22 @@ export const t = {
     },
     hero: {
       badge: "Servei 24 hores a Girona",
-      title1: "Electricitat i fontaneria a Girona,",
+      title1: "Aire condicionat, electricitat i fontaneria a Girona,",
       title2: "24 hores",
       subtitle:
-        "Instal·lacions i reparacions professionals, ràpides i de confiança per a la teva llar o negoci.",
+        "Instal·lacions i reparacions professionals per a la teva llar o negoci, amb resposta ràpida i tracte de confiança.",
       trust: [
-        "5.0 ★★★★★ en 55 valoracions",
+        "5.0 ★★★★★ en 65 valoracions",
         "Servei 24 hores",
+        "Instal·lació i reparació d'aire condicionat",
         "Electricitat i fontaneria",
-        "Atenció ràpida a Girona",
         "Pressupost sense compromís",
       ],
     },
     urgent: {
       tag: "Urgència",
       title: "Necessites una reparació urgent?",
-      text: "Contacta amb FIXPRO GIRONA per incidències de fontaneria o electricitat. T'atenem ràpidament i t'expliquem la millor solució amb claredat.",
+      text: "Contacta amb FIXPRO GIRONA per incidències d'aire condicionat, fontaneria o electricitat. T'atenem ràpidament i t'expliquem la millor solució amb claredat.",
     },
     form: {
       title: "Demana el teu pressupost",
@@ -53,13 +53,15 @@ export const t = {
       type: "Tipus de servei",
       message: "Missatge",
       types: [
+        "Instal·lació d'aire condicionat",
+        "Reparació d'aire condicionat",
         "Fontaneria",
         "Electricitat",
         "Reparació urgent",
         "Instal·lació",
         "Manteniment",
         "Reforma de bany",
-        "Instal·lació o reparació de gas",
+        "Instal·lacions i reparacions de calderes",
         "Altres",
       ],
       success: "Perfecte! S'ha obert WhatsApp amb el missatge preparat.",
@@ -74,8 +76,12 @@ export const t = {
     services: {
       title: "Serveis d'instal·lació i reparació",
       intro:
-        "A FIXPRO GIRONA oferim solucions professionals de fontaneria i electricitat per a llars, pisos, locals i negocis a Girona.",
+        "A FIXPRO GIRONA oferim solucions professionals d'aire condicionat, fontaneria i electricitat per a llars, pisos, locals i negocis a Girona.",
       items: [
+        {
+          t: "Aire condicionat",
+          d: "Instal·lació, reparació i posada a punt d'aires condicionats, ideal per preparar la llar o el negoci durant els mesos de calor.",
+        },
         {
           t: "Fontaneria",
           d: "Reparacions, instal·lacions i manteniment de sistemes de fontaneria amb treball net i professional.",
@@ -97,8 +103,8 @@ export const t = {
           d: "Treballs de renovació i millora de banys amb atenció al detall i materials adequats.",
         },
         {
-          t: "Gas i instal·lacions tècniques",
-          d: "Revisió i reparació d'instal·lacions tècniques, sempre amb cura, ordre i precisió.",
+          t: "Instal·lacions i reparacions de calderes",
+          d: "Instal·lació, revisió i reparació de calderes amb un servei acurat, segur i professional.",
         },
         {
           t: "Manteniment",
@@ -122,7 +128,7 @@ export const t = {
           d: "Oferim solucions professionals amb preus justos i transparents.",
         },
         { t: "Tracte proper", d: "Comunicació clara, atenció amable i explicacions senzilles." },
-        { t: "Clients satisfets", d: "5.0 estrelles en 55 valoracions de clients." },
+        { t: "Clients satisfets", d: "5.0 estrelles en 65 valoracions de clients." },
       ],
       local: "Som a Girona i treballem amb clients de la ciutat i voltants.",
     },
@@ -135,7 +141,7 @@ export const t = {
     },
     reviewsSection: {
       title: "El que diuen els clients",
-      avg: "Valoració mitjana: 5.0/5 basada en 55 valoracions",
+      avg: "Valoració mitjana: 5.0/5 basada en 65 valoracions",
       more: "Llegir més",
       less: "Mostrar menys",
     },
@@ -167,7 +173,7 @@ export const t = {
       area: "Girona — 17004 / 17001",
     },
     footer: {
-      desc: "Especialistes en instal·lacions i reparacions de fontaneria i electricitat a Girona.",
+      desc: "Especialistes en instal·lacions i reparacions d'aire condicionat, fontaneria, electricitat i calderes a Girona.",
       rights: "© 2026 FIXPRO GIRONA. Tots els drets reservats.",
     },
   },
@@ -189,22 +195,22 @@ export const t = {
     },
     hero: {
       badge: "Servicio 24 horas en Girona",
-      title1: "Electricidad y fontanería en Girona,",
+      title1: "Aire acondicionado, electricidad y fontanería en Girona,",
       title2: "24 horas",
       subtitle:
-        "Instalaciones y reparaciones profesionales, rápidas y de confianza para tu hogar o negocio.",
+        "Instalaciones y reparaciones profesionales para tu hogar o negocio, con respuesta rápida y trato de confianza.",
       trust: [
         "5.0 ★★★★★ en 55 reseñas",
         "Servicio 24 horas",
+        "Instalación y reparación de aire acondicionado",
         "Electricidad y fontanería",
-        "Atención rápida en Girona",
         "Presupuesto sin compromiso",
       ],
     },
     urgent: {
       tag: "Urgencia",
       title: "¿Necesitas una reparación urgente?",
-      text: "Contacta con FIXPRO GIRONA para incidencias de fontanería o electricidad. Te atendemos rápidamente y te explicamos la mejor solución con claridad.",
+      text: "Contacta con FIXPRO GIRONA para incidencias de aire acondicionado, fontanería o electricidad. Te atendemos rápidamente y te explicamos la mejor solución con claridad.",
     },
     form: {
       title: "Pide tu presupuesto",
@@ -214,13 +220,15 @@ export const t = {
       type: "Tipo de servicio",
       message: "Mensaje",
       types: [
+        "Instalación de aire acondicionado",
+        "Reparación de aire acondicionado",
         "Fontanería",
         "Electricidad",
         "Reparación urgente",
         "Instalación",
         "Mantenimiento",
         "Reforma de baño",
-        "Instalación o reparación de gas",
+        "Instalaciones y reparaciones de calderas",
         "Otros",
       ],
       success: "¡Perfecto! Se ha abierto WhatsApp con el mensaje preparado.",
@@ -231,8 +239,12 @@ export const t = {
     services: {
       title: "Servicios de instalación y reparación",
       intro:
-        "En FIXPRO GIRONA ofrecemos soluciones profesionales de fontanería y electricidad para hogares, pisos, locales y negocios en Girona.",
+        "En FIXPRO GIRONA ofrecemos soluciones profesionales de aire acondicionado, fontanería y electricidad para hogares, pisos, locales y negocios en Girona.",
       items: [
+        {
+          t: "Aire acondicionado",
+          d: "Instalación, reparación y puesta a punto de aires acondicionados, ideal para preparar tu hogar o negocio durante los meses de calor.",
+        },
         {
           t: "Fontanería",
           d: "Reparaciones, instalaciones y mantenimiento de sistemas de fontanería con un trabajo limpio y profesional.",
@@ -254,8 +266,8 @@ export const t = {
           d: "Trabajos de renovación y mejora de baños con atención al detalle y materiales adecuados.",
         },
         {
-          t: "Gas e instalaciones técnicas",
-          d: "Revisión y reparación de instalaciones técnicas, siempre con cuidado, orden y precisión.",
+          t: "Instalaciones y reparaciones de calderas",
+          d: "Instalación, revisión y reparación de calderas con un servicio cuidadoso, seguro y profesional.",
         },
         {
           t: "Mantenimiento",
@@ -324,7 +336,7 @@ export const t = {
       area: "Girona — 17004 / 17001",
     },
     footer: {
-      desc: "Especialistas en instalaciones y reparaciones de fontanería y electricidad en Girona.",
+      desc: "Especialistas en instalaciones y reparaciones de aire acondicionado, fontanería, electricidad y calderas en Girona.",
       rights: "© 2026 FIXPRO GIRONA. Todos los derechos reservados.",
     },
   },

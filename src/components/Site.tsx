@@ -152,7 +152,6 @@ export default function Site() {
           <Contact />
         </main>
         <Footer />
-        <FloatingWhatsApp />
         <MobileStickyBar />
       </div>
     </I18nContext.Provider>
@@ -431,7 +430,7 @@ function Hero() {
             <div>
               <div className="font-bold text-primary">5.0 / 5</div>
               <div className="text-xs text-muted-foreground">
-                55 {lang === "ca" ? "valoracions" : "reseñas"}
+                65 {lang === "ca" ? "valoracions" : "reseñas"}
               </div>
             </div>
           </div>
@@ -745,7 +744,7 @@ function Portfolio() {
               <div className="absolute inset-0 bg-gradient-to-t from-primary/85 via-primary/20 to-transparent opacity-90 group-hover:opacity-100 transition-opacity" />
               <div className="absolute bottom-0 left-0 right-0 p-4 text-primary-foreground">
                 <div className="font-semibold">
-                  {tr.portfolio.photoLabel} {idx + 1}
+                  {tr.portfolio.photoLabel} {}
                 </div>
               </div>
             </button>
@@ -1084,19 +1083,7 @@ function Footer() {
   );
 }
 
-/* ============ Floating WhatsApp & mobile bar ============ */
-function FloatingWhatsApp() {
-  return (
-    <a
-      href={WA}
-      aria-label="WhatsApp"
-      className="fixed z-50 bottom-24 md:bottom-6 right-4 md:right-6 h-14 w-14 rounded-full bg-[#25D366] text-white grid place-items-center shadow-[0_10px_30px_-5px_rgb(37,211,102,0.6)] hover:scale-105 transition"
-    >
-      <span className="absolute inset-0 rounded-full pulse-dot" />
-      <MessageCircle className="h-6 w-6 relative" />
-    </a>
-  );
-}
+/* ============ Mobile bar ============ */
 function MobileStickyBar() {
   const { lang } = useI18n();
   const tr = T[lang];
