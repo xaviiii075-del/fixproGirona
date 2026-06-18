@@ -43,7 +43,7 @@ export const t = {
     urgent: {
       tag: "Urgència",
       title: "Necessites una reparació urgent?",
-      text: "Contacta amb FIXPRO GIRONA per incidències d'aire condicionat, fontaneria o electricitat. T'atenem ràpidament i t'expliquem la millor solució amb claredat.",
+      text: "Contacta amb FIXPRO GIRONA per incidències d'aire condicionat, calderes o electricitat. T'atenem ràpidament i t'expliquem la millor solució amb claredat.",
     },
     form: {
       title: "Demana el teu pressupost",
@@ -210,7 +210,7 @@ export const t = {
     urgent: {
       tag: "Urgencia",
       title: "¿Necesitas una reparación urgente?",
-      text: "Contacta con FIXPRO GIRONA para incidencias de aire acondicionado, fontanería o electricidad. Te atendemos rápidamente y te explicamos la mejor solución con claridad.",
+      text: "Contacta con FIXPRO GIRONA para incidencias de aire acondicionado, calderas o electricidad. Te atendemos rápidamente y te explicamos la mejor solución con claridad.",
     },
     form: {
       title: "Pide tu presupuesto",
